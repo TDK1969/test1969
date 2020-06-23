@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-void quicksort(int* r, int s, int t)
+void aquicksort(int* r, int s, int t)
 {
     int i = s, j = t;
     int tmp;
@@ -19,8 +19,8 @@ void quicksort(int* r, int s, int t)
             r[j] = r[i];
         }
         r[i] = tmp;
-        quicksort(r, s, i - 1);
-        quicksort(r, i + 1, t);
+        aquicksort(r, s, i - 1);
+        aquicksort(r, i + 1, t);
     }
 }
 

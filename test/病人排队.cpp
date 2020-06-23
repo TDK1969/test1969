@@ -26,7 +26,7 @@ int compare(patient x,patient y)
         return x.order < y.order;
     }
 }
-void quicksort(patient* r, int s, int t)
+void auicksort(patient* r, int s, int t)
 {
     int i = s, j = t;
     patient tmp;
@@ -43,8 +43,8 @@ void quicksort(patient* r, int s, int t)
             r[j] = r[i];//3
         }
         r[i] = tmp;//4
-        quicksort(r, s, i - 1);
-        quicksort(r, i + 1, t);
+        auicksort(r, s, i - 1);
+        auicksort(r, i + 1, t);
     }
 
 }

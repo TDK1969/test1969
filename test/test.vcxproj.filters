@@ -33,5 +33,26 @@
     <ClCompile Include="成绩排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="绝对值排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="接水.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="爬楼梯.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="弹簧板.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="非空子段和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="校门外的树.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="反数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

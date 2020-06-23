@@ -139,11 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="反数.cpp" />
+    <ClCompile Include="弹簧板.cpp" />
     <ClCompile Include="快速排序.cpp" />
+    <ClCompile Include="接水.cpp" />
     <ClCompile Include="整数奇偶排序.cpp" />
     <ClCompile Include="成绩排序.cpp" />
+    <ClCompile Include="校门外的树.cpp" />
+    <ClCompile Include="爬楼梯.cpp" />
     <ClCompile Include="病人排队.cpp" />
     <ClCompile Include="相同生日.cpp" />
+    <ClCompile Include="绝对值排序.cpp" />
+    <ClCompile Include="非空子段和.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

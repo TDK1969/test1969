@@ -59,6 +59,7 @@ void daysort(birthday* r, int s, int t)
         daysort(r, i + 1, t);
     }
 }
+/*
 int main()
 {
     student myclass[180];
@@ -117,3 +118,4 @@ int main()
     return 0;
 
 }
+*/
